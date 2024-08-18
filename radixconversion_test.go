@@ -31,13 +31,13 @@ func TestDecimal405(t *testing.T) {
 }
 
 func TestHex37E(t *testing.T) {
-	decimal := number.Number{
+	hex := number.Number{
 		Value: "37E",
 		Base:  bases.Hexadecimal,
 	}
-	hex := decimal.ConvertTo(bases.Decimal)
-	if hex.Value != "894" {
-		t.Fatalf("Incorrect result, expected '894' but received '%s'", hex.Value)
+	decimal := hex.ConvertTo(bases.Decimal)
+	if decimal.Value != "894" {
+		t.Fatalf("Incorrect result, expected '894' but received '%s'", decimal.Value)
 		return
 	}
 }
