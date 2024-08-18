@@ -1,8 +1,8 @@
-package main
+package radixconversion
 
 import (
-	"binary-conversion/base"
-	"binary-conversion/number"
+	"github.com/nuriofernandez/radix-conversion/base"
+	"github.com/nuriofernandez/radix-conversion/number"
 	"testing"
 )
 
