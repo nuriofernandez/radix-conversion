@@ -1,6 +1,6 @@
 package number
 
-import "binary-conversion/base"
+import "github.com/nuriofernandez/radix-conversion/base"
 
 type Number struct {
 	Value string

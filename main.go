@@ -1,9 +1,9 @@
 package main
 
 import (
-	"binary-conversion/base"
-	"binary-conversion/number"
 	"fmt"
+	"github.com/nuriofernandez/radix-conversion/base"
+	"github.com/nuriofernandez/radix-conversion/number"
 )
 
 func main() {

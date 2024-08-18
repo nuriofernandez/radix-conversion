@@ -1,7 +1,7 @@
 package number
 
 import (
-	"binary-conversion/base"
+	"github.com/nuriofernandez/radix-conversion/base"
 	"testing"
 )
 
