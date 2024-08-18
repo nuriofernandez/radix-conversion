@@ -41,3 +41,15 @@ func TestHex37E(t *testing.T) {
 		return
 	}
 }
+
+func TestBinary132(t *testing.T) {
+	decimal := number.Number{
+		Value: "132",
+		Base:  bases.Decimal,
+	}
+	bin := decimal.ConvertTo(bases.Binary)
+	if bin.Value != "10000100" {
+		t.Fatalf("Incorrect result, expected '10000100' but received '%s'", bin.Value)
+		return
+	}
+}
